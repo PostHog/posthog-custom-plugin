@@ -3,6 +3,7 @@
     "url": "https://github.com/PostHog/posthog-hello-world-plugin",
     "description": "Greet the world with every PostHog event. An example plugin.",
     "main": "index.js",
+    "allowed_orgs": [3, 4]
     "config": [
         {
             "key": "greeting",
